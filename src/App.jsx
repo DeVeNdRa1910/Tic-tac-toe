@@ -6,8 +6,7 @@ function App() {
     <>
     <div className='flex justify-between h-[80vh] w-[80vw]'>
       <div>
-        <Game/>
-        {/* <TempGame/> */}
+        <TempGame/>
       </div>
     </div>
       
