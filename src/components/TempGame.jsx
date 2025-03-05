@@ -43,11 +43,11 @@ function TempGame() {
       </div>
 
       <div className="h-full w-full flex justify-around mt-8">
-        <div className="playerX h-[10vh] border-2 border-green-300 py-2 px-10 my-1 mx-2 hover:bg-green-500 shadow-xl shadow-blue-500 hover:shadow-green-500 transition-all rounded-xl active:bg-green-900">
+        <div className="playerX h-[15vh] border-2 border-green-300 py-2 px-10 my-1 mx-2 hover:bg-green-500 shadow-xl shadow-blue-500 hover:shadow-green-500 transition-all rounded-xl active:bg-green-900">
           <h1>Player X</h1>
           <p className='text-2xl'>{currentPlayer === 'X' && !gameOver ? 'Your Turn' : 'Waiting'}</p>
         </div>
-        <div className="playerO h-[10vh] border-2 border-blue-300 py-2 px-10 my-1 mx-2 hover:bg-blue-500 shadow-xl shadow-green-500 hover:shadow-blue-500 transition-all rounded-xl active:bg-blue-900">
+        <div className="playerO h-[15vh] border-2 border-blue-300 py-2 px-10 my-1 mx-2 hover:bg-blue-500 shadow-xl shadow-green-500 hover:shadow-blue-500 transition-all rounded-xl active:bg-blue-900">
           <h1>Player O</h1>
           <p className='text-2xl'>{currentPlayer === 'O' && !gameOver ? 'Your Turn' : 'Waiting'}</p>
         </div>

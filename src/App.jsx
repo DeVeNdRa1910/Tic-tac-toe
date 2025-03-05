@@ -1,5 +1,4 @@
 import './App.css'
-import Game from './components/Game'
 import TempGame from './components/TempGame'
 function App() {
   return (
